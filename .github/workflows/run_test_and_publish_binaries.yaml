@@ -55,7 +55,6 @@ jobs:
         run: |
           mkdir -p release/quarticRootsFlocke
           cp -r lib release/quarticRootsFlocke/
-          cp -r lib3rd release/quarticRootsFlocke/
 
       - name: Zip binaries
         uses: vimtor/action-zip@v1.2
